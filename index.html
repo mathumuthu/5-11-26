@@ -230,7 +230,7 @@
         <a href="service.html">Services</a>
         <a href="project.html">Projects</a>
         <a href="contact.html">Contact</a>
-        <a href="login.html" class="mt-8 bg-blue-600 px-8 py-3 rounded-full text-lg hover:bg-blue-700 transition-colors">Get A Free Consultation</a>
+        <a href="login.html" class="mt-8 bg-blue-600 px-8 py-3 rounded-full text-lg hover:bg-blue-700 transition-colors">Login</a>
     </div>
 
     <!-- Navigation -->
@@ -239,15 +239,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-3 cursor-pointer">
     
     <!-- 🔥 NEW LOGO -->
-    <div class="w-10 h-10 rounded-xl overflow-hidden">
-        <img src="logoo.webp" alt="logo" class="w-full h-full object-cover">
-    </div>
-
-    <span class="font-bold text-xl tracking-tight">Stackly</span>
-</div>
+                    <div class="w-10 h-10 rounded-xl overflow-hidden">
+                        <img src="logoo.webp" alt="logo" class="w-full h-full object-cover">
+                    </div>
+                    <span class="font-bold text-xl tracking-tight">Stackly</span>
+                </a>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
@@ -909,8 +908,8 @@
                 <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-purple-600/30 rounded-full blur-[80px]"></div>
                 
                 <!-- 3D Shapes -->
-                <img src="diamond.webp" class="absolute top-10 left-10 w-24 h-24 object-cover rounded-full opacity-50 floating-shape hidden md:block">
-                <img src="hero1.webp" class="absolute bottom-10 right-10 w-32 h-32 object-cover rounded-full opacity-50 floating-shape hidden md:block" style="animation-delay: 1s;">
+                <img src="in2.webp" class="absolute top-10 left-10 w-24 h-24 object-cover rounded-full opacity-50 floating-shape hidden md:block">
+                <img src="in6.webp" class="absolute bottom-10 right-10 w-32 h-32 object-cover rounded-full opacity-50 floating-shape hidden md:block" style="animation-delay: 1s;">
 
                 <div class="relative z-10">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/20 border border-white/10 text-xs font-medium text-gray-300 mb-6">
@@ -919,29 +918,55 @@
                     </div>
                     <h2 class="text-3xl md:text-5xl font-bold mb-12 max-w-3xl mx-auto">Join us today and build the future with technology experts</h2>
                     
-                    <div class="glass-panel inline-flex flex-col md:flex-row items-center gap-8 p-2 pr-8 rounded-full">
-                        <div class="flex items-center gap-4 bg-white/5 px-6 py-3 rounded-full border border-white/10">
-                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-                                <i data-lucide="phone" class="w-5 h-5"></i>
-                            </div>
-                            <div class="text-left">
-                                <div class="text-xs text-gray-400">Contact</div>
-                                <div class="font-medium">(123) 456 789</div>
-                            </div>
-                        </div>
-                        
-                        <div class="hidden md:block w-px h-8 bg-white/10"></div>
-                        
-                        <div class="flex items-center gap-4">
-                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-                                <i data-lucide="mail" class="w-5 h-5"></i>
-                            </div>
-                            <div class="text-left">
-                                <div class="text-xs text-gray-400">E-mail</div>
-                                <div class="font-medium">info@domainname.com</div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="glass-panel w-full max-w-2xl mx-auto
+            flex flex-col md:flex-row
+            items-center justify-center
+            gap-4 md:gap-8
+            p-4 md:p-3 rounded-3xl md:rounded-full">
+
+    <!-- Contact -->
+    <div class="w-full flex items-center justify-center
+                md:justify-start gap-4
+                px-4 py-3 rounded-2xl
+                bg-white/5 border border-white/10">
+
+        <div class="w-10 h-10 shrink-0 rounded-full
+                    bg-white/10 flex items-center justify-center">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+        </div>
+
+        <div class="text-left min-w-0">
+            <div class="text-xs text-gray-400">Contact</div>
+            <div class="font-medium whitespace-nowrap">
+                (123) 456 789
+            </div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="hidden md:block w-px h-10 bg-white/10"></div>
+
+    <!-- Email -->
+    <div class="w-full flex items-center justify-center
+                md:justify-start gap-4
+                px-4 py-3 rounded-2xl
+                bg-white/5 border border-white/10">
+
+        <div class="w-10 h-10 shrink-0 rounded-full
+                    bg-white/10 flex items-center justify-center">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+        </div>
+
+        <div class="text-left min-w-0">
+            <div class="text-xs text-gray-400">E-mail</div>
+            <div class="font-medium text-sm sm:text-base
+                        break-all">
+                info@domainname.com
+            </div>
+        </div>
+    </div>
+
+</div>
 
                     <div class="mt-12 flex items-center justify-center gap-2">
                         <span class="font-bold text-xl">4.9/5</span>
@@ -967,18 +992,18 @@
             <div class="flex flex-col md:flex-row justify-between items-start gap-10 mb-16 group cursor-pointer">
                 <h2 class="text-6xl md:text-8xl font-bold tracking-tighter text-gray-500 group-hover:text-white transition-colors duration-500">LET'S CONNECT</h2>
                 <div class="w-20 h-20 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-blue-600 group-hover:border-blue-600 transition-all magnetic-btn">
-                    <i data-lucide="arrow-up-right" class="w-8 h-8 group-hover:text-white"></i>
+                  <a href="404.html">  <i data-lucide="arrow-up-right" class="w-8 h-8 group-hover:text-white"></i></a>
                 </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 py-12 border-t border-white/10">
                 <div>
-                    <div class="flex items-center gap-3 mb-4">
+                    <a href="index.html" class="flex items-center gap-3 mb-4">
                         <div class="w-10 h-10 rounded-xl overflow-hidden">
                             <img src="logoo.webp" alt="Stackly Logo" class="w-full h-full object-cover">
                         </div>
                         <h4 class="font-semibold">Stackly</h4>
-                    </div>
+                    </a>
                     <p class="text-gray-400 text-sm leading-relaxed">
                         Empowering businesses through innovative IT solutions and digital transformation since 2015.
                     </p>
@@ -1010,8 +1035,7 @@
                     <h4 class="font-semibold mb-6">Connect</h4>
                     <div class="flex gap-4 mb-6">
                         <a href="404.html" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400 magnetic-btn">
-                            <i class="fab fa-twitter"></i>
-                        </a>
+  <i class="fa-brands fa-x-twitter"></i>                        </a>
                         <a href="404.html" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400 magnetic-btn">
                             <i class="fab fa-linkedin"></i>
                         </a>
